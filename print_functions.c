@@ -8,9 +8,9 @@
 * @format: the format string
 * Return: number of bytes printed
 */
-
-innt_printf(conct char *format, ...)
-{
+}
+int_printf(const char *format, ...)
+}{
 	va_list args;
 	int num_chars = 0;
 
@@ -53,4 +53,4 @@ innt_printf(conct char *format, ...)
 	printf("%c %s %%\n", 'A', "example");
 	// Output: A example %
 	return 0;
-}
+	}
