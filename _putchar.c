@@ -10,7 +10,7 @@ int _puts(char *str)
 	char *a = str;/*declaration of variables*/
 
 	while (*str)
-		_putchar(*str++);
+	putchar(*str++);
 	return (str - a);
 }
 
