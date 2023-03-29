@@ -1,6 +1,5 @@
 #include "main.h"
-#include <stdio.h>
-#include <stdarg.h>
+
 
 /**
  * handle_print - Prints an argument based on its type
